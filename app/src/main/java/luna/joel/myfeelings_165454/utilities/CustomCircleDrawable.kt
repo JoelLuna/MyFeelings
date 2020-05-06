@@ -7,7 +7,7 @@ import androidx.core.content.ContextCompat
 import luna.joel.myfeelings_165454.Emociones
 import luna.joel.myfeelings_165454.R
 
-abstract class CustomCircleDrawable: Drawable {
+ class CustomCircleDrawable: Drawable {
     var coordenadas: RectF? = null
     var anguloBarrido: Float =0.0F
     var anguloInicio: Float = 0.0F
